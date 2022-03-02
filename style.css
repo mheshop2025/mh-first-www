@@ -16,13 +16,13 @@ body {
 .half-width{
     width: 40%;
     float: left;
-    margin: 4%;
+    margin: 2%;
     padding: 1%;
 }
 .other-width {
     width: 40%;
     float: right;
-    margin: 4%;
+    margin: 2%;
     padding: 1%;
 }
 .half-width img{
@@ -34,13 +34,19 @@ body {
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    
 }
 .bottom-banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    
 }
-
+.last-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 section{
     height: 500px;
 }
@@ -51,4 +57,20 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: 700;
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    border-radius: 10px;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(103, 189, 247),rgb(29, 66, 233));
+    border-image-slice: 1;
 }
