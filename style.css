@@ -74,3 +74,11 @@ section{
     border-image: linear-gradient(rgb(103, 189, 247),rgb(29, 66, 233));
     border-image-slice: 1;
 }
+.margin{
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
