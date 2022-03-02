@@ -1,4 +1,10 @@
 h1 {
-
-    color: blue;
+ 
+    font-size: 50px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.name-h{
+    color: gold;
 }
